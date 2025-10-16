@@ -5,8 +5,8 @@ import Footer from '@/components/Footer'
 import Link from 'next/link'
 import { siteConfig } from '@/lib/siteConfig'
 import {
-  Monitor, Zap, Shield, Headphones, TrendingUp,
-  Clock, CheckCircle, ArrowRight, Sparkles, Star,
+  Monitor, Zap, Headphones, TrendingUp,
+  CheckCircle, ArrowRight, Sparkles, Star,
   Building2, Store, UtensilsCrossed, Dumbbell
 } from 'lucide-react'
 
@@ -211,7 +211,7 @@ export default function HomePage() {
           <div className="container mx-auto px-4 text-center">
             <Star className="w-16 h-16 text-yellow-400 mx-auto mb-6" />
             <h2 className="text-3xl md:text-5xl font-bold mb-6">Gati për të Filluar?</h2>
-            <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">Kontaktoni tani për një konsultim falas dhe shikoni si mund t'ju ndihmojmë!</p>
+            <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">Kontaktoni tani për një konsultim falas dhe shikoni si mund t&apos;ju ndihmojmë!</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={siteConfig.social.whatsapp} target="_blank" rel="noopener noreferrer" className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-xl hover:scale-105 transition-all inline-flex items-center justify-center">WhatsApp Tani</a>
               <Link href="/kontakti" className="bg-white hover:bg-gray-100 text-blue-900 px-8 py-4 rounded-xl font-bold text-lg shadow-xl hover:scale-105 transition-all inline-flex items-center justify-center">Dërgoni Email</Link>

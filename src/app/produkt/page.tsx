@@ -4,9 +4,9 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Link from 'next/link'
 import { siteConfig } from '@/lib/siteConfig'
-import { 
-  Monitor, Wifi, Cpu, Zap, Shield, Clock, 
-  CheckCircle, ArrowRight, Star, Package,
+import {
+  Monitor, Wifi, Cpu, Zap, Shield, Clock,
+  CheckCircle, Star, Package,
   Maximize2, Eye, Signal, HardDrive, Smartphone
 } from 'lucide-react'
 

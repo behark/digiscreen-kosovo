@@ -51,7 +51,7 @@ export default function ContactPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Na Kontaktoni</h1>
-              <p className="text-xl text-blue-100 mb-8">Jemi këtu për t'ju ndihmuar! Dërgoni një mesazh ose na telefononi direkt.</p>
+              <p className="text-xl text-blue-100 mb-8">Jemi këtu për t&apos;ju ndihmuar! Dërgoni një mesazh ose na telefononi direkt.</p>
             </div>
           </div>
         </section>
@@ -93,7 +93,7 @@ export default function ContactPage() {
                     <CheckCircle className="w-6 h-6 text-green-600" />
                     <div>
                       <div className="font-semibold text-green-900">Mesazhi u dërgua!</div>
-                      <div className="text-sm text-green-700">Do t'ju kontaktojmë së shpejti.</div>
+                      <div className="text-sm text-green-700">Do t&apos;ju kontaktojmë së shpejti.</div>
                     </div>
                   </div>
                 )}
